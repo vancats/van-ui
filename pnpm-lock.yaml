@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@element-plus/icons-vue': ^1.1.4
   '@vancats/eslint-config': ^0.0.6
   '@vitejs/plugin-vue': ^2.3.1
   chalk: ^4.1.2
@@ -15,6 +16,7 @@ specifiers:
   vue-tsc: ^0.34.7
 
 dependencies:
+  '@element-plus/icons-vue': 1.1.4_vue@3.2.33
   element-plus: 2.1.10_vue@3.2.33
   vue: 3.2.33
   vue-router: 4.0.14_vue@3.2.33
