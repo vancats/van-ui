@@ -1,10 +1,10 @@
 import { createApp } from 'vue'
 import ElementPlus from 'element-plus'
 import * as Icons from '@element-plus/icons-vue'
+import 'element-plus/dist/index.css'
+import VanUI from './component'
 import App from './App.vue'
 import router from './router/index'
-import 'element-plus/dist/index.css'
-// import { hyphen } from './utils'
 
 const app = createApp(App)
 
@@ -12,5 +12,5 @@ const app = createApp(App)
 for (const i in Icons)
   app.component(i, (Icons as any)[i])
 
-app.use(router).use(ElementPlus)
+app.use(router).use(ElementPlus).use(VanUI)
 app.mount('#app')

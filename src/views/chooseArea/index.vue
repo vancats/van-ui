@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import ChooseArea from '../../component/area/src/index.vue'
-
 function changeArea(val: any) {
   val.id = 1
 }
@@ -8,7 +6,7 @@ function changeArea(val: any) {
 </script>
 
 <template>
-  <choose-area @change="changeArea" />
+  <van-area @change="changeArea" />
 </template>
 
 <style scoped>
