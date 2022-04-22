@@ -3,8 +3,6 @@
 </template>
 
 <style lang="less">
-.el-container,
-.el-menu {
-  height: 100%;
-}
+@import './styles/base';
+@import './styles/ui';
 </style>

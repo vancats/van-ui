@@ -46,6 +46,9 @@
     "vue-tsc": "^0.34.7"
   },
   "eslintConfig": {
-    "extends": "@vancats"
+    "extends": "@vancats",
+    "rules": {
+      "vue/no-mutating-props": "off"
+    }
   }
 }

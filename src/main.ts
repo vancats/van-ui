@@ -4,7 +4,6 @@ import * as Icons from '@element-plus/icons-vue'
 import App from './App.vue'
 import router from './router/index'
 import 'element-plus/dist/index.css'
-import './styles/main.css'
 // import { hyphen } from './utils'
 
 const app = createApp(App)

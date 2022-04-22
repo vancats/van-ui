@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 import ContainerHeader from './Header/index.vue'
 import ContainerSide from './Side/index.vue'
-const isCollapse = ref(true)
+const isCollapse = ref(false)
 
 </script>
 
