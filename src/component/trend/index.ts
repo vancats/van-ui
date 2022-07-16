@@ -1,9 +1,9 @@
 
 import type { App } from 'vue'
-import Icon from './src/index.vue'
+import Trend from './src/index.vue'
 
 export default {
   install(app: App) {
-    app.component('VanIcon', Icon)
+    app.component('VanTrend', Trend)
   },
 }

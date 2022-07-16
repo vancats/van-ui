@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ar } from 'element-plus/lib/locale'
 import { ref, watch } from 'vue'
 import allAreas from '../lib/pca-code.json'
 

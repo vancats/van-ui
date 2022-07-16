@@ -30,7 +30,9 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^1.1.4",
+    "@types/lodash": "^4.14.182",
     "element-plus": "^2.1.10",
+    "lodash": "^4.17.21",
     "vue": "^3.2.33",
     "vue-router": "^4.0.14"
   },
@@ -48,7 +50,8 @@
   "eslintConfig": {
     "extends": "@vancats",
     "rules": {
-      "vue/no-mutating-props": "off"
+      "vue/no-mutating-props": "off",
+      "@typescript-eslint/member-delimiter-style": "off"
     }
   }
 }

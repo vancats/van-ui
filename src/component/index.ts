@@ -1,10 +1,14 @@
 import type { App } from 'vue'
-import chooseIcon from './icon'
-import chooseArea from './area'
+import Icon from './icon'
+import Area from './area'
+import Trend from './trend'
+import Table from './table'
 
 const components = [
-  chooseIcon,
-  chooseArea,
+  Icon,
+  Area,
+  Trend,
+  Table,
 ]
 
 export default {

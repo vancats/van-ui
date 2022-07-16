@@ -1,6 +1,7 @@
 <script setup lang="ts">
 function changeArea(val: any) {
-  val.id = 1
+  // eslint-disable-next-line no-console
+  console.log('val: ', val)
 }
 
 </script>

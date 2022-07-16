@@ -1,9 +1,9 @@
 
 import type { App } from 'vue'
-import chooseArea from './src/index.vue'
+import Area from './src/index.vue'
 
 export default {
   install(app: App) {
-    app.component('VanArea', chooseArea)
+    app.component('VanArea', Area)
   },
 }
